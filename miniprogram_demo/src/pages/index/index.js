@@ -49,13 +49,14 @@ class Index extends Component {
     console.log(this.props, nextProps)
   }
 
-  componentDidMount() {}
-
-  componentWillUnmount() {}
-
-  componentDidShow() {}
-
-  componentDidHide() {}
+  componentDidMount() {
+    Taro.login().then(res => {
+      console.log(res)
+    })
+    Taro.getSetting().then(res => {
+      console.log(res)
+    })
+  }
 
   goToUrl(url) {
     Taro.navigateTo({
