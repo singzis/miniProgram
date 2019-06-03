@@ -15,7 +15,7 @@
   - 未授权
     - 诱导用户点击授权
 
-登陆的一些tops
+登陆的一些tips
 
 - 用户进入小程序，程序直接调用login获取code
 - 发送code给后台获取登陆凭证和openId, sessionKey, unionId-本地保存登陆态
