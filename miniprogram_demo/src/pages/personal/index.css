@@ -1,0 +1,97 @@
+page {
+  height: 100%;
+  background: #eee;
+}
+.personal {
+  box-sizing: border-box;
+  padding: 50px;
+  border-bottom: 1px solid #eee;
+  background: #fff;
+}
+.avatar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.avatar-box {
+  border: 4px solid #fd9943;
+  border-radius: 100px;
+  box-sizing: border-box;
+  position: relative;
+}
+.avatar-icon {
+  position: absolute;
+  display: flex;
+  top: 70%;
+  left: 90%;
+}
+.avatar-icon-img {
+  height: 40px;
+  width: 40px;
+  margin-right: 10px;
+}
+.name,
+.tips {
+  text-align: center;
+  font-size: 10pt;
+  color: rgba(0, 0, 0, 0.85);
+}
+.name {
+  font-weight: 600;
+  padding: 20px 0;
+}
+.login {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  box-sizing: border-box;
+  padding: 20px;
+}
+.login .login-button {
+  background-color: transparent;
+}
+.info {
+  display: flex;
+  justify-content: space-between;
+  box-sizing: border-box;
+  padding: 20px 0;
+  color: rgba(0, 0, 0, 0.65);
+  background: #fff;
+}
+.info-box {
+  width: 33%;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  font-size: 10pt;
+}
+.info-num,
+.info-title {
+  margin-bottom: 20px;
+  width: 100%;
+  text-align: center;
+}
+.other {
+  box-sizing: border-box;
+  padding-top: 20px;
+}
+.row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 30px;
+  box-sizing: border-box;
+  border-bottom: 1px solid #eee;
+  font-size: 10pt;
+  color: rgba(0, 0, 0, 0.65);
+  background: #fff;
+}
+.row-title {
+  display: flex;
+  align-items: center;
+}
+.row-icon {
+  width: 36px;
+  height: 36px;
+  margin-right: 20px;
+}
