@@ -52,9 +52,11 @@ class Index extends Component {
   componentDidMount() {
     Taro.login().then(res => {
       console.log(res)
+      //用code去服务器换取登陆凭证
     })
     Taro.getSetting().then(res => {
       console.log(res)
+      //用以验证是否授权或处于授权期
     })
   }
 
