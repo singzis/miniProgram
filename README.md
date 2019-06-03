@@ -8,6 +8,10 @@
 
 - login，获取code
 - getSetting获取授权情况
+  ```js
+  //获取授权按钮
+   <Button openType='getUserInfo' onGetUserInfo={this.getUserInfoRequest}>点击登陆</Button>
+  ```
   - 已授权
     - getUserInfo获取用户信息
     - 将code和用户信息发送到后台-返回自定义登陆态
