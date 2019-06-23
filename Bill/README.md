@@ -30,8 +30,8 @@
   + 日历：
     + 日历形式展示
       + 消费额度写在日期下面
-  + 设置：
-    + 可以设置年月日上线消费额
+
+![初期设计稿](https://www.singz72.com/blogImage/miniProgramer/bill_sketch.png)
 
 ## 技术
 
