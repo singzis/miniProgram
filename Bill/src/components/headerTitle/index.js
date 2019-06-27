@@ -26,7 +26,7 @@ class UpdateBill extends Component {
           icon
           &&
           <View className={`${className}-icon`}>
-            <Image src={icon} alt='icon' />
+            <Image src='https://singz72.com/images/Bill/date.png' alt='icon' />
           </View>
         }
       </View>

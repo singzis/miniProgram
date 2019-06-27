@@ -1,5 +1,6 @@
 import Taro, { Component } from '@tarojs/taro'
 import { View } from '@tarojs/components'
+import { AtCard } from 'taro-ui'
 import { connect } from '@tarojs/redux'
 
 import { add, minus, asyncAdd } from '../../actions/counter'
@@ -43,7 +44,14 @@ class Index extends Component {
     return (
       <View className={`${className}`}>
         <View className={`${className}-header`}>
-          <HeaderTitle title='消费总览' date='2019-06-25' />
+          <HeaderTitle title='消费总览' date='2019-06-25' icon />
+        </View>
+        <View className={`${className}-content`}>
+          <View className={`${className}-year`}>
+            <AtCard title='2019年'>
+              year
+            </AtCard>
+          </View>
         </View>
       </View>
     )
